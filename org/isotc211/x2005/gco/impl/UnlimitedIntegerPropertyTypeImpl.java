@@ -1,0 +1,217 @@
+/*
+ * XML Type:  UnlimitedInteger_PropertyType
+ * Namespace: http://www.isotc211.org/2005/gco
+ * Java type: org.isotc211.x2005.gco.UnlimitedIntegerPropertyType
+ *
+ * Automatically generated - do not modify.
+ */
+package org.isotc211.x2005.gco.impl;
+/**
+ * An XML UnlimitedInteger_PropertyType(@http://www.isotc211.org/2005/gco).
+ *
+ * This is a complex type.
+ */
+public class UnlimitedIntegerPropertyTypeImpl extends org.apache.xmlbeans.impl.values.XmlComplexContentImpl implements org.isotc211.x2005.gco.UnlimitedIntegerPropertyType
+{
+    private static final long serialVersionUID = 1L;
+    
+    public UnlimitedIntegerPropertyTypeImpl(org.apache.xmlbeans.SchemaType sType)
+    {
+        super(sType);
+    }
+    
+    private static final javax.xml.namespace.QName UNLIMITEDINTEGER$0 = 
+        new javax.xml.namespace.QName("http://www.isotc211.org/2005/gco", "UnlimitedInteger");
+    private static final javax.xml.namespace.QName NILREASON$2 = 
+        new javax.xml.namespace.QName("http://www.isotc211.org/2005/gco", "nilReason");
+    
+    
+    /**
+     * Gets the "UnlimitedInteger" element
+     */
+    public org.isotc211.x2005.gco.UnlimitedIntegerType getUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.isotc211.x2005.gco.UnlimitedIntegerType target = null;
+            target = (org.isotc211.x2005.gco.UnlimitedIntegerType)get_store().find_element_user(UNLIMITEDINTEGER$0, 0);
+            if (target == null)
+            {
+                return null;
+            }
+            return target;
+        }
+    }
+    
+    /**
+     * Tests for nil "UnlimitedInteger" element
+     */
+    public boolean isNilUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.isotc211.x2005.gco.UnlimitedIntegerType target = null;
+            target = (org.isotc211.x2005.gco.UnlimitedIntegerType)get_store().find_element_user(UNLIMITEDINTEGER$0, 0);
+            if (target == null) return false;
+            return target.isNil();
+        }
+    }
+    
+    /**
+     * True if has "UnlimitedInteger" element
+     */
+    public boolean isSetUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            return get_store().count_elements(UNLIMITEDINTEGER$0) != 0;
+        }
+    }
+    
+    /**
+     * Sets the "UnlimitedInteger" element
+     */
+    public void setUnlimitedInteger(org.isotc211.x2005.gco.UnlimitedIntegerType unlimitedInteger)
+    {
+        generatedSetterHelperImpl(unlimitedInteger, UNLIMITEDINTEGER$0, 0, org.apache.xmlbeans.impl.values.XmlObjectBase.KIND_SETTERHELPER_SINGLETON);
+    }
+    
+    /**
+     * Appends and returns a new empty "UnlimitedInteger" element
+     */
+    public org.isotc211.x2005.gco.UnlimitedIntegerType addNewUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.isotc211.x2005.gco.UnlimitedIntegerType target = null;
+            target = (org.isotc211.x2005.gco.UnlimitedIntegerType)get_store().add_element_user(UNLIMITEDINTEGER$0);
+            return target;
+        }
+    }
+    
+    /**
+     * Nils the "UnlimitedInteger" element
+     */
+    public void setNilUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.isotc211.x2005.gco.UnlimitedIntegerType target = null;
+            target = (org.isotc211.x2005.gco.UnlimitedIntegerType)get_store().find_element_user(UNLIMITEDINTEGER$0, 0);
+            if (target == null)
+            {
+                target = (org.isotc211.x2005.gco.UnlimitedIntegerType)get_store().add_element_user(UNLIMITEDINTEGER$0);
+            }
+            target.setNil();
+        }
+    }
+    
+    /**
+     * Unsets the "UnlimitedInteger" element
+     */
+    public void unsetUnlimitedInteger()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            get_store().remove_element(UNLIMITEDINTEGER$0, 0);
+        }
+    }
+    
+    /**
+     * Gets the "nilReason" attribute
+     */
+    public java.lang.Object getNilReason()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.apache.xmlbeans.SimpleValue target = null;
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(NILREASON$2);
+            if (target == null)
+            {
+                return null;
+            }
+            return target.getObjectValue();
+        }
+    }
+    
+    /**
+     * Gets (as xml) the "nilReason" attribute
+     */
+    public net.opengis.gml.x32.NilReasonType xgetNilReason()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            net.opengis.gml.x32.NilReasonType target = null;
+            target = (net.opengis.gml.x32.NilReasonType)get_store().find_attribute_user(NILREASON$2);
+            return target;
+        }
+    }
+    
+    /**
+     * True if has "nilReason" attribute
+     */
+    public boolean isSetNilReason()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            return get_store().find_attribute_user(NILREASON$2) != null;
+        }
+    }
+    
+    /**
+     * Sets the "nilReason" attribute
+     */
+    public void setNilReason(java.lang.Object nilReason)
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            org.apache.xmlbeans.SimpleValue target = null;
+            target = (org.apache.xmlbeans.SimpleValue)get_store().find_attribute_user(NILREASON$2);
+            if (target == null)
+            {
+                target = (org.apache.xmlbeans.SimpleValue)get_store().add_attribute_user(NILREASON$2);
+            }
+            target.setObjectValue(nilReason);
+        }
+    }
+    
+    /**
+     * Sets (as xml) the "nilReason" attribute
+     */
+    public void xsetNilReason(net.opengis.gml.x32.NilReasonType nilReason)
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            net.opengis.gml.x32.NilReasonType target = null;
+            target = (net.opengis.gml.x32.NilReasonType)get_store().find_attribute_user(NILREASON$2);
+            if (target == null)
+            {
+                target = (net.opengis.gml.x32.NilReasonType)get_store().add_attribute_user(NILREASON$2);
+            }
+            target.set(nilReason);
+        }
+    }
+    
+    /**
+     * Unsets the "nilReason" attribute
+     */
+    public void unsetNilReason()
+    {
+        synchronized (monitor())
+        {
+            check_orphaned();
+            get_store().remove_attribute(NILREASON$2);
+        }
+    }
+}
